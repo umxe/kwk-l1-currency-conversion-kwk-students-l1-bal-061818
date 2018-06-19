@@ -1,27 +1,27 @@
 # Write your cod here
 def usd_to_eur(num)
   num /= 1.2 
-  return num
+  return num.to_f
 end
 
 def eur_to_usd(num)
   num *= 1.2
-  return num
+  return num.to_f
 end
 
 def usd_to_jpy(num)
   num *= 110
-  return num
+  return num.to_f
 end
 
 def usd_to_g8p(num)
   num *= 359.5
-  return num
+  return num.to_f
 end
 
 def usd_to_aud(num)
   num *= 1.36
-  return num
+  return num.to_f
 end
 
 def jpy_to_usd(num)
@@ -31,12 +31,12 @@ end
 
 def g8p_to_usd(num)
   num /= 359.5
-  return num
+  return num.to_f
 end
 
 def aud_to_usd(num)
   num /= 1.36
-  return num
+  return num.to_f
 end
 
 puts "How much money do you want to convert?"
