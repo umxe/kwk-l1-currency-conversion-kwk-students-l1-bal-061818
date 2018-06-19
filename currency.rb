@@ -18,7 +18,7 @@ def usd_to_g8p(num)
 end
 
 def usd_to_aud(num)
-  
+  num *= 1.36
 end
 
 def jpy_to_usd(num)
@@ -30,5 +30,6 @@ def g8p_to_usd(num)
 end
 
 def aud_to_usd(num)
-  
+  num /= 1.36
 end
+
